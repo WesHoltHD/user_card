@@ -1,0 +1,62 @@
+/* All */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* container */
+
+#container {
+    width: 800px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* user icon */
+
+.icon{
+    height: 125px;
+    border-radius: 50%;
+    border: solid white;
+    background-color: white;
+    
+}
+
+/* Location */
+
+.location, .gear {
+    height: 15px;
+    margin-top: 0px;
+}
+
+.card-header {
+    height: 75px;
+    background-color: lightseagreen;
+    margin-bottom: 65px;
+    padding-top: 50px;
+}
+
+.card-body, .icon {
+    margin-left: 30px;
+}
+
+p{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 150%;
+}
+
+h1, p, h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
